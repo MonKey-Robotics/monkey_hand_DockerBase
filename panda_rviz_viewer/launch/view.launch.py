@@ -9,7 +9,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     xacro_file = PathJoinSubstitution(
-        [FindPackageShare("moveit_resources_panda_description"), "urdf", "panda.urdf"]
+        [FindPackageShare("assembled_urdf"), "urdf", "assembled_urdf.urdf"]
     )
 
     robot_description = Command(
