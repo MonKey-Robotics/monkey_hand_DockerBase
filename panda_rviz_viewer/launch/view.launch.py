@@ -9,7 +9,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     xacro_file = PathJoinSubstitution(
-        [FindPackageShare("hand_description"), "urdf", "hand_description.xacro"]
+        [FindPackageShare("zeroerr_description"), "urdf", "zeroerr_description.xacro"]
     )
 
     robot_description = Command(

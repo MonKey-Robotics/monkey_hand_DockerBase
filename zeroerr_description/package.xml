@@ -1,5 +1,5 @@
 <package format="2">
-  <name>assembled_urdf</name>
+  <name>zeroerr_description</name>
   <version>1.0.0</version>
   <description>
     <p>URDF Description package for Assembled_URDF</p>
