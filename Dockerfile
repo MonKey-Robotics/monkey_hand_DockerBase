@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 LABEL title="ROS2 Humble Docker Image"
-LABEL authors="Lucas Matana Luza <lucas.luza@sc.senai.br>"
+LABEL authors="Iyad>"
 LABEL description="A Docker Image for developing applications based on the ROS2"
 LABEL version="v0.1"
 

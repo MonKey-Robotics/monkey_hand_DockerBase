@@ -18,5 +18,5 @@ services:
       - ./panda_canopen:/home/ros2_user/ws_ros/src/panda_canopen
       - ./panda_moveit:/home/ros2_user/ws_ros/src/panda_moveit
       - ./fyp:/home/ros2_user/fyp
-      - ./assembled_urdf://home/ros2_user/ws_ros/src/assembled_urdf
+      - ./hand_description://home/ros2_user/ws_ros/src/hand_description
   

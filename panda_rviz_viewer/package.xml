@@ -6,10 +6,9 @@
   
   <version>1.0.0</version>
   
-  <description>Launcher for vizualizing the Franka Emika Panda robot.</description>
+  <description>Launcher for vizualizing robot hand.</description>
   
-  <author email="lucas.luza@sc.senai.br">Lucas Matana Luza</author>
-  <maintainer email="lucas.luza@sc.senai.br">Lucas Matana Luza</maintainer>
+  <author email="iyadhu213@gmail.com">Iyad Ali</author>
   
   <license>MIT</license>
 
@@ -27,7 +26,7 @@
 
   <exec_depend>xacro</exec_depend>
 
-  <exec_depend>assembled_urdf</exec_depend>
+  <exec_depend>hand_description</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
